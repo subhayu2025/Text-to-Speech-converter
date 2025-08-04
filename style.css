@@ -42,7 +42,7 @@ textarea {
 }
 
 textarea::placeholder {
-    font-size: 16px;
+    font-size: 18px;
     color: #ddd;
 }
 
@@ -56,17 +56,23 @@ textarea::placeholder {
 button {
     background: #ff2963;
     color: #fff;
-    font-size: 16px;
-    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
     border-radius: 35px;
     border: none;
     outline: none;
-    cursor: pointer;   
+    cursor: pointer;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
 button img {
-    width: 16px;
+    width: 18px;
+    height: 18px;
+    display: block;
     margin-right: 10px;
 }
 
